@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{01802D29-927A-4672-BF95-25D736BBFF4F}</ProjectGuid>
+    <RootNamespace>vl</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\vlfeat\vl\aib.c" />
+    <ClCompile Include="C:\vlfeat\vl\array.c" />
+    <ClCompile Include="C:\vlfeat\vl\covdet.c" />
+    <ClCompile Include="C:\vlfeat\vl\dsift.c" />
+    <ClCompile Include="C:\vlfeat\vl\fisher.c" />
+    <ClCompile Include="C:\vlfeat\vl\generic.c" />
+    <ClCompile Include="C:\vlfeat\vl\getopt_long.c" />
+    <ClCompile Include="C:\vlfeat\vl\gmm.c" />
+    <ClCompile Include="C:\vlfeat\vl\hikmeans.c" />
+    <ClCompile Include="C:\vlfeat\vl\hog.c" />
+    <ClCompile Include="C:\vlfeat\vl\homkermap.c" />
+    <ClCompile Include="C:\vlfeat\vl\host.c" />
+    <ClCompile Include="C:\vlfeat\vl\ikmeans.c" />
+    <ClCompile Include="C:\vlfeat\vl\imopv.c" />
+    <ClCompile Include="C:\vlfeat\vl\imopv_sse2.c" />
+    <ClCompile Include="C:\vlfeat\vl\kdtree.c" />
+    <ClCompile Include="C:\vlfeat\vl\kmeans.c" />
+    <ClCompile Include="C:\vlfeat\vl\lbp.c" />
+    <ClCompile Include="C:\vlfeat\vl\liop.c" />
+    <ClCompile Include="C:\vlfeat\vl\mathop.c" />
+    <ClCompile Include="C:\vlfeat\vl\mathop_avx.c" />
+    <ClCompile Include="C:\vlfeat\vl\mathop_sse2.c" />
+    <ClCompile Include="C:\vlfeat\vl\mser.c" />
+    <ClCompile Include="C:\vlfeat\vl\pgm.c" />
+    <ClCompile Include="C:\vlfeat\vl\quickshift.c" />
+    <ClCompile Include="C:\vlfeat\vl\random.c" />
+    <ClCompile Include="C:\vlfeat\vl\rodrigues.c" />
+    <ClCompile Include="C:\vlfeat\vl\scalespace.c" />
+    <ClCompile Include="C:\vlfeat\vl\sift.c" />
+    <ClCompile Include="C:\vlfeat\vl\slic.c" />
+    <ClCompile Include="C:\vlfeat\vl\stringop.c" />
+    <ClCompile Include="C:\vlfeat\vl\svm.c" />
+    <ClCompile Include="C:\vlfeat\vl\svmdataset.c" />
+    <ClCompile Include="C:\vlfeat\vl\vlad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\vlfeat\vl\aib.h" />
+    <ClInclude Include="C:\vlfeat\vl\array.h" />
+    <ClInclude Include="C:\vlfeat\vl\covdet.h" />
+    <ClInclude Include="C:\vlfeat\vl\dsift.h" />
+    <ClInclude Include="C:\vlfeat\vl\fisher.h" />
+    <ClInclude Include="C:\vlfeat\vl\generic.h" />
+    <ClInclude Include="C:\vlfeat\vl\getopt_long.h" />
+    <ClInclude Include="C:\vlfeat\vl\gmm.h" />
+    <ClInclude Include="C:\vlfeat\vl\heap-def.h" />
+    <ClInclude Include="C:\vlfeat\vl\hikmeans.h" />
+    <ClInclude Include="C:\vlfeat\vl\hog.h" />
+    <ClInclude Include="C:\vlfeat\vl\homkermap.h" />
+    <ClInclude Include="C:\vlfeat\vl\host.h" />
+    <ClInclude Include="C:\vlfeat\vl\ikmeans.h" />
+    <ClInclude Include="C:\vlfeat\vl\imopv.h" />
+    <ClInclude Include="C:\vlfeat\vl\imopv_sse2.h" />
+    <ClInclude Include="C:\vlfeat\vl\kdtree.h" />
+    <ClInclude Include="C:\vlfeat\vl\kmeans.h" />
+    <ClInclude Include="C:\vlfeat\vl\lbp.h" />
+    <ClInclude Include="C:\vlfeat\vl\liop.h" />
+    <ClInclude Include="C:\vlfeat\vl\mathop.h" />
+    <ClInclude Include="C:\vlfeat\vl\mathop_avx.h" />
+    <ClInclude Include="C:\vlfeat\vl\mathop_sse2.h" />
+    <ClInclude Include="C:\vlfeat\vl\mser.h" />
+    <ClInclude Include="C:\vlfeat\vl\pgm.h" />
+    <ClInclude Include="C:\vlfeat\vl\qsort-def.h" />
+    <ClInclude Include="C:\vlfeat\vl\quickshift.h" />
+    <ClInclude Include="C:\vlfeat\vl\random.h" />
+    <ClInclude Include="C:\vlfeat\vl\rodrigues.h" />
+    <ClInclude Include="C:\vlfeat\vl\scalespace.h" />
+    <ClInclude Include="C:\vlfeat\vl\shuffle-def.h" />
+    <ClInclude Include="C:\vlfeat\vl\sift.h" />
+    <ClInclude Include="C:\vlfeat\vl\slic.h" />
+    <ClInclude Include="C:\vlfeat\vl\stringop.h" />
+    <ClInclude Include="C:\vlfeat\vl\svm.h" />
+    <ClInclude Include="C:\vlfeat\vl\svmdataset.h" />
+    <ClInclude Include="C:\vlfeat\vl\vlad.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\vlfeat\vl\float.th" />
+    <None Include="C:\vlfeat\vl\ikmeans_elkan.tc" />
+    <None Include="C:\vlfeat\vl\ikmeans_init.tc" />
+    <None Include="C:\vlfeat\vl\ikmeans_lloyd.tc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

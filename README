@@ -1,0 +1,91 @@
+importante para compilar un proyecto
+
+1- click derecho en el proyecto, propiedades, propiedades de configuracion, general -> Conjunto de herramientas dela plataforma = v120_xp
+
+
+2- c/c++, linea de comandos -> -D_SCL_SECURE_NO_WARNINGS , para habilitar los métodos marcados como unsafe por vs2013
+
+3- vinculador, general -> forzar salida de archivo = /force:multiple, para tener multiples mains
+
+4- cuidado con los multiples main, tienen que haber cambios en el punto de entrada principal para que se recompile toda la solucion con los cambios nuevos.
+
+
+--------------------------------------------------------------------------
+
+
+
+Resultados comparativos de la version en c++ respecto a los de matlab.
+
+pistola 1
+matlab svm score = -0.9680
+c++ loading matlab matrix, svm score = -0.970583
+c++, gaussianBlur, svm score = -0.9721
+
+
+pistola 43
+matlab svm score = -0.9475
+c++ loading matlab matrix, svm score = -0.903676
+c++, gaussianBlur, svm score = -0.917809
+
+
+pistola 55
+matlab svm score = -0.9338
+c++ loading matlab matrix, svm score = -0.929136
+c++, gaussianBlur, svm score = -0.951717
+
+--------------------------------------------------------------------------
+
+000001_20131022_00020280_3.png
+no pistola 3
+matlab svm score = -1.1375
+c++ loading matlab matrix svm score = -1.16169
+c++, gaussianBlur, svm score = -1.18092
+
+
+000001_20131029_00062300_4.png
+no pistola 4
+matlab svm score = -1.0311
+c++ loading matlab matrix svm score = -1.01643
+c++, gaussianBlur, svm score = -1.01413
+
+
+000001_20131005_00002489_10.png
+no pistola 10
+matlab svm score = -0.9855
+c++ loading matlab matrix svm score = -0.924493
+c++, gaussianBlur, svm score = -0.9792
+
+
+
+--------------------------------------------------------------------------
+Probando exactitud del algoritmo
+para la bd pistola+bg (145 imagenes) = 88.745% 
+para la bd pistola_nobg (146 imagenes) = 75.3425%
+
+para la bd revolver+bg (171 imagenes) = 95.9064%
+para la bd revolver_nobg (171 imagenes) = 89.4737%
+
+para la bd no_pistola2 (8706 imagenes) = 95.6697%
+--------------------------------------------------------------------------
+
+libs opencv
+
+opencv_core2411d.lib
+opencv_highgui2411d.lib
+opencv_imgproc2411d.lib
+opencv_features2d2411d.lib
+opencv_calib3d2411d.lib
+opencv_contrib2411d.lib
+opencv_flann2411d.lib
+opencv_gpu2411d.lib
+opencv_legacy2411d.lib
+opencv_ml2411d.lib
+opencv_nonfree2411d.lib
+opencv_objdetect2411d.lib
+opencv_ocl2411d.lib
+opencv_photo2411d.lib
+opencv_stitching2411d.lib
+opencv_ts2411d.lib
+opencv_superres2411d.lib
+opencv_video2411d.lib
+opencv_videostab2411d.lib

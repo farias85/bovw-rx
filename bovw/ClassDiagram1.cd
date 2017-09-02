@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PHOW" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>PHOW.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="main7::A" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>main7-struct.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="main7::A2" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main7-struct.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="main7::abc3" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main7-struct.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bovw::BoVW" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAghICEOAgCEAgAAoAAxAAgACAABABAEggAAGCA=</HashCode>
+      <FileName>BoVW.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bovw::Util" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAACAAAAEAAAAAAAAAAAAAQACAAAA=</HashCode>
+      <FileName>Util.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="img::Format" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xEAEIYQKABIMCARxQAAAIhQAiAwAUAAggACAIwCIAAA=</HashCode>
+      <FileName>Format.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="img::HSITable" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAAAAAAAQAAAgIAAAAAAAAAAAAwAAAACAAAAAAA=</HashCode>
+      <FileName>HSITable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="img::ImageDataControl" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAAAAAAAAAIAAAAAAQAAEAAAAAEAAAAAABIAAA=</HashCode>
+      <FileName>ImageDataControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="main4::__unnamed_struct_000f_1" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>main4-vlfeat_sift.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="main7::A3" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main7-struct.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="main7::abc" Collapsed="true">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>main7-struct.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="main7::abc2" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main7-struct.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="main4::Pair" Collapsed="true">
+    <Position X="6" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main4-vlfeat_sift.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="main4::uchar" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main4-vlfeat_sift.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="byte" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Format.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

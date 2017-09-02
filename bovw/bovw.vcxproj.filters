@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\img">
+      <UniqueIdentifier>{034b6038-fb03-467c-9062-8d83a9a5dc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\bovw">
+      <UniqueIdentifier>{7fdc7f47-cd3b-4cc2-9954-82c7f15b90c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\bovw">
+      <UniqueIdentifier>{0135a033-6f98-41ca-8a5e-d13cb4817fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\img">
+      <UniqueIdentifier>{54b963df-c45a-4d87-b612-01de94f3a247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\testing">
+      <UniqueIdentifier>{1f47a0b1-d713-44da-920e-6b25561ff339}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Format.cpp">
+      <Filter>Archivos de código fuente\img</Filter>
+    </ClCompile>
+    <ClCompile Include="HSITable.cpp">
+      <Filter>Archivos de código fuente\img</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageDataControl.cpp">
+      <Filter>Archivos de código fuente\img</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="main12-completo.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main0-img.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main1-dsift.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main2-svm.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main3-vlfeat_kmeans.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main4-vlfeat_sift.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main5-split.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main6-save-load-array.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main7-struct.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main8-lambda.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main9-compute-histogram.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main10-homkernelmap.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="main11-merge-arrays.cpp">
+      <Filter>Archivos de código fuente\testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Archivos de código fuente\bovw</Filter>
+    </ClCompile>
+    <ClCompile Include="BoVW.cpp">
+      <Filter>Archivos de código fuente\bovw</Filter>
+    </ClCompile>
+    <ClCompile Include="PHOW.cpp">
+      <Filter>Archivos de código fuente\bovw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Format.h">
+      <Filter>Archivos de encabezado\img</Filter>
+    </ClInclude>
+    <ClInclude Include="HSITable.h">
+      <Filter>Archivos de encabezado\img</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageDataControl.h">
+      <Filter>Archivos de encabezado\img</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Archivos de encabezado\bovw</Filter>
+    </ClInclude>
+    <ClInclude Include="BoVW.h">
+      <Filter>Archivos de encabezado\bovw</Filter>
+    </ClInclude>
+    <ClInclude Include="PHOW.h">
+      <Filter>Archivos de encabezado\bovw</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
